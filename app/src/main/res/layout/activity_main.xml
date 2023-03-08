@@ -54,4 +54,15 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Uyg3" />
 
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="11dp"
+        android:onClick="uyg5Goster"
+        android:text="@string/uyg5"
+        app:layout_constraintStart_toStartOf="@+id/Uyg4"
+        app:layout_constraintTop_toBottomOf="@+id/Uyg4" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

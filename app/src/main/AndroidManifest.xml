@@ -28,7 +28,7 @@
         <activity android:name=".uyg3"></activity>
         <activity android:name=".Uyg4"></activity>
 
-
+        <activity android:name=".Uyg5"></activity>
     </application>
 
 </manifest>
