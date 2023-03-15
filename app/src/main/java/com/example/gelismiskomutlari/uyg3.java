@@ -9,7 +9,7 @@ import android.widget.Toast;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-public class uyg3 extends AppCompatActivity {
+public class Uyg3 extends AppCompatActivity {
 
 
     @Override
