@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/kare"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/uzunluk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="47dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/ucgen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:text="Button"
+        app:layout_constraintEnd_toEndOf="@+id/uzunluk"
+        app:layout_constraintStart_toStartOf="@+id/uzunluk"
+        app:layout_constraintTop_toBottomOf="@+id/uzunluk" />
+
+    <Button
+        android:id="@+id/btnkare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dp"
+        android:text="Button"
+        app:layout_constraintStart_toStartOf="@+id/ucgen"
+        app:layout_constraintTop_toBottomOf="@+id/ucgen" />
+
+    <TextView
+        android:id="@+id/cevre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="17dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="@+id/btnkare"
+        app:layout_constraintTop_toBottomOf="@+id/btnkare" />
+</androidx.constraintlayout.widget.ConstraintLayout>
